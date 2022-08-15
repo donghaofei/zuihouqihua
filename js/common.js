@@ -43,7 +43,11 @@ $(function(){
             $('.index_search_box').fadeIn(300)
         })
         $('.index_search_box .cont .close').click(function(){
+<<<<<<< Updated upstream
             $('.index_search_box').fade(300)
+=======
+            $('.index_search_box').fadeOut(300)
+>>>>>>> Stashed changes
         })
         //手机二级下拉
         $('header .nav_btn_m').click(function(){
