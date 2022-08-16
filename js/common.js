@@ -52,6 +52,9 @@ $(function(){
         $('.nav_m_box').click(function(){
             $('.nav_m_box').removeClass('show');
         });
+        $('.nav_m_cont .box___ .close .icon').click(function(){
+            $('.nav_m_box').removeClass('show');
+        })
         $('.nav_m_cont').click(function(e){
             e.stopPropagation();
         })
